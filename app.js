@@ -1,3 +1,4 @@
+// Importamos todas las dependencias necesarias
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import express from "express";
@@ -23,5 +24,5 @@ app.listen(4000, () => {
     console.log("ESCUCHANDO AL SERVIDOR EN EL PUERTO 4000");
 });
 
-
+// Funcion de prueba del controlador
 test(); 

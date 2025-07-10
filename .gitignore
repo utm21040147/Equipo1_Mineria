@@ -1,1 +1,2 @@
+# Exclusion de archivo al momento de subirlo al git
 node_modules/

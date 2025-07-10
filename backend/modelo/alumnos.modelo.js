@@ -1,5 +1,8 @@
+//Importamos las dependencias necesarias
 import {Schema, model} from "mongoose"
 
+
+// Creacion del esquema para el modelo Alumno (BD con sus atributos)
 const AlumnoSchema = new Schema({
     nombre: {
         type: String,
@@ -14,5 +17,5 @@ const AlumnoSchema = new Schema({
     }
 });
 
-// Me gusta la papaya 
+// Exportamos el modelo Alumno
 export const Alumno = model("Alumno", AlumnoSchema);
