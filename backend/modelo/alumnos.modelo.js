@@ -1,8 +1,8 @@
-//Importamos las dependencias necesarias
+//Importamos las dependencias necesarias - ISAAC REYES
 import {Schema, model} from "mongoose"
 
 
-// Creacion del esquema para el modelo Alumno (BD con sus atributos)
+// Creacion del esquema para el modelo Alumno (BD con sus atributos) - ISAAC REYES
 const AlumnoSchema = new Schema({
     nombre: {
         type: String,
@@ -17,5 +17,5 @@ const AlumnoSchema = new Schema({
     }
 });
 
-// Exportamos el modelo Alumno
+// Exportamos el modelo Alumno - ISAAC REYES
 export const Alumno = model("Alumno", AlumnoSchema);
